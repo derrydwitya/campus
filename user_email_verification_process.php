@@ -16,11 +16,11 @@ if($result){
 			
 			header('Location:login_view.php?error=-1');
 			
-		}else{
+		}else{ echo"salah 1";
 		
 		}
 	}
-}else{
+}else{echo"salah 2";
 
 }
 ?>
